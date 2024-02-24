@@ -20,9 +20,6 @@ header h2 {
     color: #CEC8FF;
 }
 
-#top-button {
-    color: white !important;
-}
 
 footer {
     background-image:linear-gradient(#CEC8FF,white);
@@ -38,3 +35,9 @@ footer {
 .navbar {
      background-color: #901CAD;
 }
+
+@media only screen and (max-width: 768px) {
+    .text-sm-end {
+      text-align: end !important;
+    }
+  }
