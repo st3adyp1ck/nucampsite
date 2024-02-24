@@ -20,6 +20,10 @@ header h2 {
     color: #CEC8FF;
 }
 
+#top-button {
+    color: white !important;
+}
+
 footer {
     background-image:linear-gradient(#CEC8FF,white);
     padding: 20px 0;
