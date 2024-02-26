@@ -41,3 +41,7 @@ footer {
       text-align: end !important;
     }
   }
+
+  .accordion-button {
+    background-color: #d3d3d3;
+}
