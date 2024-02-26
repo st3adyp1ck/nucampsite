@@ -42,6 +42,12 @@ footer {
     }
   }
 
-  .accordion-button {
+.accordion-button {
     background-color: #d3d3d3;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }

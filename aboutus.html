@@ -39,23 +39,26 @@
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
-                data-bs-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house fa-lg"></i>
-                            Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-info fa-lg"></i>
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i> Sites</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-card fa-lg"></i>
-                            Contact</a></li>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i
+                                    class="fa-solid fa-house fa-lg"></i>
+                                Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-info fa-lg"></i>
+                                About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-list fa-lg"></i>
+                                Sites</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                    class="fa-solid fa-address-card fa-lg"></i>
+                                Contact</a></li>
 
-                </ul>
-            </div>
+                    </ul>
+                </div>
 
         </div>
         </div>
@@ -82,25 +85,10 @@
                     campsite to make sure that they are up to our standards. We also present a platform for campers to
                     share reviews on campsites they have visited with each other.</p>
             </div>
+
            
-            <section>
-                <div class="row row-content">
-                    <div class="col">
-                        <h3>Community Partners</h3>
-                        <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
-                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                        <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
-                        <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                        <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
-                        <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                        <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
-                        <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you
-                            covered.</p>
-                    </div>
-                </div>
-            </section>
-           
-           
+
+
             <div class="col-sm-6">
                 <div class="card">
                     <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
@@ -122,70 +110,46 @@
                 <div class="card bg-light mt-3">
                     <figure class="card-body">
                         <blockquote class="blockquote">
-                            <q>I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail.</q> 
+                            <q>I will not follow where the path may lead, but I will go where there is no path, and I
+                                will leave a trail.</q>
                         </blockquote>
-                        <figcaption class="blockquote-footer"> 
+                        <figcaption class="blockquote-footer">
                             Muriel Strode <cite>"Wind-Wafted Wild Flowers" - The Open Court, Vol. 1903</cite>
                         </figcaption>
-                   </figure>
+                    </figure>
                 </div>
-            </div>   
-        </section>  
+            </div>
+        </section>
 
         <section>
-            <div id="accordionExample" class="accordion">
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bootstrap">
-                            Bootstrap Outfitters
-                        </button>
-                    </h4>
-                    <div id="bootstrap" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-none d-sm-block">
-                            <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                        </div>
-                    </div>
+            <h3>Community Partners</h3>
+            <div class="nav nav-tabs" role="tablist">
+                <a class="nav-link active" id="bootstrap-tab" data-bs-toggle="tab" href="#bootstrap" role="tab">Bootstrap Outfitters</a>
+                <a class="nav-link" id="git-tab" data-bs-toggle="tab" href="#git" role="tab">Git Out Expeditions</a>
+                <a class="nav-link" id="mongo-tab" data-bs-toggle="tab" href="#mongo" role="tab">Mongo Fly Shop</a>
+                <a class="nav-link" id="node-tab" data-bs-toggle="tab" href="#node" role="tab">Node Outdoor Apparel</a>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="bootstrap" role="tabpanel">
+                    <h4>Bootstrap Outfitters<small>Outdoor Gear Specialists</small></h4>
+                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
                 </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#git">
-                            Git Out Expeditions
-                        </button>
-                    </h4>
-                    <div id="git" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-none d-sm-block">
-                            <p>Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                        </div>
-                    </div>
+                <div class="tab-pane fade" id="git" role="tabpanel">
+                    <h4>Git Out Expeditions<small>Group Adventure Expeditions</small></h4>
+                    <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
                 </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mongo">
-                            Mongo Fly Shop
-                        </button>
-                    </h4>
-                    <div id="mongo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-none d-sm-block">
-                            <p>Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                        </div>
-                    </div>
+                <div class="tab-pane fade" id="mongo" role="tabpanel">
+                    <h4>Mongo Fly Shop<small>Your Neighborhood Fly Fishing Shop.</small></h4>
+                    <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
                 </div>
-                <div class="accordion-item">
-                    <h4 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#node">
-                            Node Outdoor Apparel
-                        </button>
-                    </h4>
-                    <div id="node" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-none d-sm-block">
-                            <p>From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
-                        </div>
-                    </div>
+                <div class="tab-pane fade" id="node" role="tabpanel">
+                    <h4>Node Outdoor Apparel<small>Outdoor Clothes & Shoes</small></h4>
+                    <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
                 </div>
             </div>
         </section>
         <div class="col-sm-9">
-           
+
             <h2>Facts & Figures</h2>
             <div class="table-responsive">
                 <table class="table table-striped">
