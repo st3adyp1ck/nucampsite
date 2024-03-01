@@ -161,7 +161,7 @@
         <section class="row row-content">
             <div class="col-md-8 mx-auto">
                 <!-- Carousel -->
-                <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5git add .000">
+                <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <!-- Indicators -->
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0"
@@ -249,9 +249,11 @@
 
         <!-- partner section -->
         <section class="row row-content align-items-center">
+
             <div class="col-sm-4 col-md-3 order-sm-last">
                 <h2 class="text-sm-end">Our Community Partners</h2>
             </div>
+
             <div class="col">
                 <div class="d-flex">
                     <img class="me-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
@@ -264,6 +266,32 @@
             </div>
         </section>
 
+            <!-- Step 1: Add a new row with specified classes -->
+            <div class="row row-content align-items-start review-section mb-3">
+                <!-- Step 2: Create a Column for Heading and Image -->
+                <div class="col-sm-4 col-md-3 order-sm-first">
+                    <h2 class="text-sm-end">What Are Happy Campers Saying?</h2>
+                </div>
+                <!-- Step 3: Create a Column for the Image -->
+                <div class="col ms-lg-5">
+                    <img src="img/happy-campers.jpg" class="img-thumbnail img-fluid" alt="Happy Campers">
+                </div>
+                <!-- Step 4: Create a Column for Review Text -->
+                <div class="col">
+                    <h3>So Worth It!</h3>
+                    <p>"We had a blast as we embarked on a wild adventure amidst nature's embrace, where s'mores and
+                        laughter under starlit skies became our daily ritual, creating memories that will last us
+                        forever."</p>
+                </div>
+                <!-- Step 5: Create a Button with Centered Alignment -->
+               <div class="row">
+                <div class="col d-flex justify-content-center mt-5">
+                    <button class="campsite-btn" data-bs-toggle="modal" data-bs-target="#reserveModal">Reserve
+                        Campsite</button>
+                </div>
+                    </div>
+            </div>
+        
     </main>
 
     <!-- footer -->
